@@ -119,4 +119,41 @@ router.get("/2NDEVOWNER/2wheelbulk/SUPPORT/support1", function (req, res) {
   
   res.render('support1')
 });
+router.get("/2NDEVOWNER/3wheelbulk/3bulk", function (req, res) {
+  
+  res.render('3bulk')
+});
+router.get("/2NDEVOWNER/3wheelbulk/3bulk", function (req, res) {
+  
+  res.render('3bulk')
+});
+router.get("/2NDEVOWNER/3wheelbulk/Emergency", function (req, res) {
+  
+  res.render('Emergency')
+});
+
+router.get("/2NDEVOWNER/3wheelbulk/Custom", function (req, res) {
+  
+  res.render('Custom')
+});
+router.get("/2NDEVOWNER/3wheelbulk/parts", function (req, res) {
+  
+  res.render('parts')
+});
+router.get("/2NDEVOWNER/3wheelbulk/maintain", function (req, res) {
+  
+  res.render('maintain')
+});
+router.get("/2NDEVOWNER/3wheelbulk/Washing", function (req, res) {
+  
+  res.render('Washing')
+});
+router.get("/2NDEVOWNER/3wheelbulk/query", function (req, res) {
+  
+  res.render('query')
+});
+router.get("/2NDEVOWNER/3wheelbulk/3bulk", function (req, res) {
+  
+  res.render('3bulk')
+});
 
