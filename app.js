@@ -17,12 +17,17 @@ app.set("views", [
   path.join(__dirname, "views"),
   path.join(__dirname, "views/FIXPOINT FRONT"),
   path.join(__dirname, "views/FIXPOINT FRONT/FILES"),
+  path.join(__dirname, "views/FIXPOINT FRONT/Files/img"),
   path.join(__dirname, "views/FIXPOINT FRONT/FILES/BLOG"),
   path.join(__dirname, "views/FIXPOINT FRONT/FILES/ABOUT"),
   path.join(__dirname, "views/FIXPOINT FRONT/FILES/SUPPORT"),
   path.join(__dirname, "views/EV OWNER/2wheel"),
   path.join(__dirname, "views/EV OWNER/3wheel"),
   path.join(__dirname, "views/EV OWNER/4wheel"),
+  path.join(__dirname, "views/2NDEVOWNER/2wheelbulk"),
+  path.join(__dirname, "views/2NDEVOWNER/2wheelbulk/ABOUT"),
+  path.join(__dirname, "views/2NDEVOWNER/2wheelbulk/SUPPORT"),
+  
 ]);
 app.set("view engine", "ejs");
 
@@ -33,6 +38,7 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 app.use(express.static(path.join(__dirname, "views/FIXPOINT FRONT")));
 app.use(express.static(path.join(__dirname, "views/FIXPOINT FRONT/FILES")));
+app.use(express.static(path.join(__dirname, "views/FIXPOINT FRONT/FILES/img")));
 app.use(express.static(path.join(__dirname, "views/EV OWNER")));
 app.use(express.static(path.join(__dirname, "views/")));
 

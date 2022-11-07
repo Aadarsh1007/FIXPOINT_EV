@@ -80,4 +80,40 @@ router.get("/Files/SUPPORT/support", function (req, res) {
   
   res.render('support')
 });
+router.get("/2NDEVOWNER/2wheelbulk/2bulk", function (req, res) {
+  
+  res.render('2bulk')
+});
+router.get("/2NDEVOWNER/2wheelbulk/Emergency", function (req, res) {
+  
+  res.render('Emergency')
+});
+router.get("/2NDEVOWNER/2wheelbulk/Custom", function (req, res) {
+  
+  res.render('Custom')
+});
+router.get("/2NDEVOWNER/2wheelbulk/parts", function (req, res) {
+  
+  res.render('parts')
+});
+router.get("/2NDEVOWNER/2wheelbulk/maintain", function (req, res) {
+  
+  res.render('maintain')
+});
+router.get("/2NDEVOWNER/2wheelbulk/Washing", function (req, res) {
+  
+  res.render('Washing')
+});
+router.get("/2NDEVOWNER/2wheelbulk/query", function (req, res) {
+  
+  res.render('query')
+});
+router.get("/2NDEVOWNER/2wheelbulk/ABOUT/aboutuss", function (req, res) {
+  
+  res.render('aboutuss')
+});
+router.get("/2NDEVOWNER/2wheelbulk/SUPPORT/support1", function (req, res) {
+  
+  res.render('support1')
+});
 
