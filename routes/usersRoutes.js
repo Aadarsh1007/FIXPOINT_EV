@@ -157,3 +157,10 @@ router.get("/2NDEVOWNER/3wheelbulk/3bulk", function (req, res) {
   res.render('3bulk')
 });
 
+
+
+
+router.get("/Files/services/services",(req,res)=>{
+  res.render("services")
+})
+
