@@ -60,6 +60,9 @@ router.get("/views/EVOWNER/2wheel/2owner", function (req, res) {
 
   res.render('2owner.ejs')
 });
+router.get("/EVOWNER/2wheel/2owner",(req,res)=>{
+  res.render("2owner")
+})
 router.get("/EVOWNER/3wheel/3owner.html", function (req, res) {
   res.render('3owner.ejs')
 });
