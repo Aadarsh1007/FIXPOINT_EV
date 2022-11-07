@@ -26,11 +26,16 @@ app.set("views", [
   path.join(__dirname, "views/2NDEVOWNER/2wheelbulk"),
   path.join(__dirname, "views/2NDEVOWNER/2wheelbulk/ABOUT"),
   path.join(__dirname, "views/2NDEVOWNER/2wheelbulk/SUPPORT"),
+
   path.join(__dirname, "views/FIXPOINT FRONT/FILES/services"),
+  path.join(__dirname, "views/2NDEVOWNER/3wheelbulk"),
+  path.join(__dirname, "views/2NDEVOWNER/3wheelbulk/ABOUT"),
+  path.join(__dirname, "views/2NDEVOWNER/3wheelbulk/SUPPORT"),
+
   
 ]);
-app.set("view engine", "ejs");
 
+app.set("view engine", "ejs");
 app.use(logger("dev"));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
