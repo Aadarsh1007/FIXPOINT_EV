@@ -3,11 +3,10 @@ var express = require("express");
 var path = require("path");
 var cookieParser = require("cookie-parser");
 var logger = require("morgan");
-
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/usersRoutes");
 
-// to check connection require file in app js
+// to check connection require file in app js // update new comment
 require("./config/dbconnection");
 
 var app = express();
