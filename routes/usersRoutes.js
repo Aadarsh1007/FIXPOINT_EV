@@ -120,3 +120,10 @@ router.get("/2NDEVOWNER/2wheelbulk/SUPPORT/support1", function (req, res) {
   res.render('support1')
 });
 
+
+
+
+router.get("/Files/services/services",(req,res)=>{
+  res.render("services")
+})
+
