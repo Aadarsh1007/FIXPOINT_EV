@@ -283,7 +283,10 @@ figure img {
 }
 /******footer****/
 
+.footer-section a {
+  text-decoration: none;
 
+}
 ul {
   margin: 0px;
   padding: 0px;

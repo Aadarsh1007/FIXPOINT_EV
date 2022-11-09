@@ -26,11 +26,35 @@ app.set("views", [
   path.join(__dirname, "views/2NDEVOWNER/2wheelbulk"),
   path.join(__dirname, "views/2NDEVOWNER/2wheelbulk/ABOUT"),
   path.join(__dirname, "views/2NDEVOWNER/2wheelbulk/SUPPORT"),
+  path.join(__dirname, "views/FIXPOINT FRONT/FILES/management"),
+
+  path.join(__dirname, "views/FIXPOINT FRONT/FILES/evowner"),
+  path.join(__dirname, "views/FIXPOINT FRONT/FILES/preowned"),
+  path.join(__dirname, "views/FIXPOINT FRONT/FILES/corporate"),
+  path.join(__dirname, "views/FIXPOINT FRONT/FILES/franchise"),
 
   path.join(__dirname, "views/FIXPOINT FRONT/FILES/services"),
+  path.join(__dirname, "views/FIXPOINT FRONT/FILES/governmentbody"),
+  path.join(__dirname, "views/FIXPOINT FRONT/FILES/fixpointbuddy"),
   path.join(__dirname, "views/2NDEVOWNER/3wheelbulk"),
   path.join(__dirname, "views/2NDEVOWNER/3wheelbulk/ABOUT"),
-  path.join(__dirname, "views/2NDEVOWNER/3wheelbulk/SUPPORT"),
+
+  path.join(__dirname, "views/2NDEVOWNER/4wheelbulk"),
+  path.join(__dirname, "views/2NDEVOWNER/4wheelbulk/ABOUT"),
+  path.join(__dirname, "views/2NDEVOWNER/4wheelbulk/SUPPORT"),
+
+
+  path.join(__dirname, "views/EV MANUFACTURE"),
+  path.join(__dirname, "views/EV MANUFACTURE/ABOUT"),
+  path.join(__dirname, "views/EV MANUFACTURE/SUPPORT"),
+
+
+  path.join(__dirname, "views/GOVERNMENTBODY/govtwheel"),
+  path.join(__dirname, "views/GOVERNMENTBODY/govtwheel/ABOUT"),
+  path.join(__dirname, "views/GOVERNMENTBODY/govtwheel/SUPPORT"),
+
+
+
 
   
 ]);

@@ -129,32 +129,110 @@ router.get("/2NDEVOWNER/3wheelbulk/3bulk", function (req, res) {
 });
 router.get("/2NDEVOWNER/3wheelbulk/Emergency", function (req, res) {
   
-  res.render('Emergency')
+  res.render('Emergency3')
 });
 
 router.get("/2NDEVOWNER/3wheelbulk/Custom", function (req, res) {
   
-  res.render('Custom')
+  res.render('Custom3')
 });
 router.get("/2NDEVOWNER/3wheelbulk/parts", function (req, res) {
   
-  res.render('parts')
+  res.render('parts3')
 });
 router.get("/2NDEVOWNER/3wheelbulk/maintain", function (req, res) {
   
-  res.render('maintain')
+  res.render('maintain3')
 });
 router.get("/2NDEVOWNER/3wheelbulk/Washing", function (req, res) {
   
-  res.render('Washing')
+  res.render('Washing3')
 });
 router.get("/2NDEVOWNER/3wheelbulk/query", function (req, res) {
   
-  res.render('query')
+  res.render('query3')
 });
-router.get("/2NDEVOWNER/3wheelbulk/3bulk", function (req, res) {
+
+router.get("/2NDEVOWNER/3wheelbulk/ABOUT/aboutu", function (req, res) {
   
-  res.render('3bulk')
+  res.render('aboutu')
+});
+router.get("/2NDEVOWNER/3wheelbulk/SUPPORT/support2", function (req, res) {
+  
+  res.render('support2')
+});
+
+// 2nd EV OWNER 4wheel routes
+router.get("/2NDEVOWNER/4wheelbulk/4bulk", function (req, res) {
+  
+  res.render('4bulk')
+});
+router.get("/2NDEVOWNER/4wheelbulk/Emergency", function (req, res) {
+  
+  res.render('Emergency4')
+});
+router.get("/2NDEVOWNER/4wheelbulk/Custom", function (req, res) {
+  
+  res.render('Custom4')
+});
+router.get("/2NDEVOWNER/4wheelbulk/parts", function (req, res) {
+  
+  res.render('parts4')
+});
+router.get("/2NDEVOWNER/4wheelbulk/maintain", function (req, res) {
+  
+  res.render('maintain4')
+});
+router.get("/2NDEVOWNER/4wheelbulk/Washing", function (req, res) {
+  
+  res.render('Washing4')
+});
+router.get("/2NDEVOWNER/4wheelbulk/query", function (req, res) {
+  
+  res.render('query4')
+});
+router.get("/2NDEVOWNER/4wheelbulk/ABOUT/about", function (req, res) {
+  
+  res.render('about4')
+});
+router.get("/2NDEVOWNER/4wheelbulk/ABOUT/about", function (req, res) {
+  
+  res.render('about4')
+});
+router.get("/2NDEVOWNER/4wheelbulk/SUPPORT/support", function (req, res) {
+  
+  res.render('support4')
+});
+
+
+// EV Manufacture routes
+router.get("/EVMANUFACTURE/manufacture", function (req, res) {
+  
+  res.render('manufacture')
+});
+
+router.get("/EVMANUFACTURE/ABOUT/about", function (req, res) {
+  
+  res.render('aboutft')
+});
+router.get("/EVMANUFACTURE/SUPPORT/support", function (req, res) {
+  
+  res.render('supportft')
+});
+
+// GOVERNMENTBODY routes
+
+router.get("/GOVERNMENTBODY/govtwheel/govtwheel", function (req, res) {
+  
+  res.render('govtwheel')
+});
+router.get("/GOVERNMENTBODY/govtwheel/ABOUT/aboutusss", function (req, res) {
+  
+  res.render('aboutgt')
+});
+router.get("/GOVERNMENTBODY/govtwheel/SUPPORT/support", function (req, res) {
+  
+  res.render('supportgt')
 });
 
 
@@ -164,3 +242,30 @@ router.get("/Files/services/services",(req,res)=>{
   res.render("services")
 })
 
+router.get("/Files/franchise/franchise",(req,res)=>{
+  res.render("franchise")
+})
+
+router.get("/Files/management/management",(req,res)=>{
+  res.render("management")
+})
+
+router.get("/Files/evowner/evowner",(req,res)=>{
+  res.render("evowner")
+})
+
+router.get("/Files/preowned/preowned",(req,res)=>{
+  res.render("preowned")
+})
+
+router.get("/Files/corporate/corporate",(req,res)=>{
+  res.render("corporate")
+})
+
+router.get("/Files/governmentbody/governmentbody",(req,res)=>{
+  res.render("governmentbody")
+})
+
+router.get("/Files/fixpointbuddy/fixpointbuddy",(req,res)=>{
+  res.render("fixpointbuddy")
+})
