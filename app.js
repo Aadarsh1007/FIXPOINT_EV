@@ -6,6 +6,10 @@ var logger = require("morgan");
 var indexRouter = require("./routes/index");
 var usersRouter = require("./routes/usersRoutes");
 
+// git merge origin origin/master
+// ... add and commit here...
+// git push origin master
+
 // to check connection require file in app js // update new comment
 require("./config/dbconnection");
 
@@ -21,8 +25,23 @@ app.set("views", [
   path.join(__dirname, "views/FIXPOINT FRONT/FILES/ABOUT"),
   path.join(__dirname, "views/FIXPOINT FRONT/FILES/SUPPORT"),
   path.join(__dirname, "views/EV OWNER/2wheel"),
+
+  path.join(__dirname, "views/EV OWNER/2wheel/ABOUT"),
+  path.join(__dirname, "views/EV OWNER/2wheel/SUPPORT"),
+  
+
+  path.join(__dirname, "views/EV OWNER/3wheel"),
+  path.join(__dirname, "views/EV OWNER/3wheel/ABOUT"),
+  path.join(__dirname, "views/EV OWNER/3wheel/SUPPORT"),
+
+  path.join(__dirname, "views/EV OWNER/4wheel"),
+  path.join(__dirname, "views/EV OWNER/4wheel/ABOUT"),
+  path.join(__dirname, "views/EV OWNER/4wheel/SUPPORT"),
+  
+
   path.join(__dirname, "views/EV OWNER/3wheel"),
   path.join(__dirname, "views/EV OWNER/4wheel"),
+
   path.join(__dirname, "views/2NDEVOWNER/2wheelbulk"),
   path.join(__dirname, "views/2NDEVOWNER/2wheelbulk/ABOUT"),
   path.join(__dirname, "views/2NDEVOWNER/2wheelbulk/SUPPORT"),
@@ -33,6 +52,31 @@ app.set("views", [
   path.join(__dirname, "views/2NDEVOWNER/3wheelbulk/SUPPORT"),
 
   
+  path.join(__dirname, "views/2NDEVOWNER/4wheelbulk"),
+  path.join(__dirname, "views/2NDEVOWNER/4wheelbulk/ABOUT"),
+  path.join(__dirname, "views/2NDEVOWNER/4wheelbulk/SUPPORT"),
+
+
+  path.join(__dirname, "views/EV MANUFACTURE"),
+  path.join(__dirname, "views/EV MANUFACTURE/ABOUT"),
+  path.join(__dirname, "views/EV MANUFACTURE/SUPPORT"),
+
+
+  path.join(__dirname, "views/GOVERNMENTBODY/govtwheel"),
+  path.join(__dirname, "views/GOVERNMENTBODY/govtwheel/ABOUT"),
+  path.join(__dirname, "views/GOVERNMENTBODY/govtwheel/SUPPORT"),
+
+
+  path.join(__dirname, "views/COMPANY/OWNER"),
+  path.join(__dirname, "views/COMPANY/OWNER/PARTIALS"),
+  path.join(__dirname, "views/COMPANY/OWNER/ABOUT"),
+  path.join(__dirname, "views/COMPANY/OWNER/SUPPORT"),
+
+  
+  path.join(__dirname, "views/COMPANY/USER"),
+  path.join(__dirname, "views/COMPANY/USER/ABOUT"),
+  path.join(__dirname, "views/COMPANY/USER/SUPPORT"),
+
 ]);
 
 app.set("view engine", "ejs");
