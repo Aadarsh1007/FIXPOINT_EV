@@ -323,6 +323,8 @@ router.get("/GOVERNMENTBODY/govtwheel/ABOUT/aboutusss", function (req, res) {
 router.get("/GOVERNMENTBODY/govtwheel/SUPPORT/support", function (req, res) {
   
   res.render('supportgt')
+<<<<<<< HEAD
+=======
 });
 
 // company owner router
@@ -353,6 +355,7 @@ router.get("/COMPANY/USER/ABOUT/aboutusss", function (req, res) {
 router.get("/COMPANY/USER/SUPPORT/support", function (req, res) {
   
   res.render('supportus')
+>>>>>>> 8f189a58915a3bb62adb5e4710fdefab4cd227af
 });
 
 
@@ -362,3 +365,30 @@ router.get("/Files/services/services",(req,res)=>{
   res.render("services")
 })
 
+router.get("/Files/franchise/franchise",(req,res)=>{
+  res.render("franchise")
+})
+
+router.get("/Files/management/management",(req,res)=>{
+  res.render("management")
+})
+
+router.get("/Files/evowner/evowner",(req,res)=>{
+  res.render("evowner")
+})
+
+router.get("/Files/preowned/preowned",(req,res)=>{
+  res.render("preowned")
+})
+
+router.get("/Files/corporate/corporate",(req,res)=>{
+  res.render("corporate")
+})
+
+router.get("/Files/governmentbody/governmentbody",(req,res)=>{
+  res.render("governmentbody")
+})
+
+router.get("/Files/fixpointbuddy/fixpointbuddy",(req,res)=>{
+  res.render("fixpointbuddy")
+})
