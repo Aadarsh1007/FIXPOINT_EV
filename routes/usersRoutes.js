@@ -56,20 +56,110 @@ router.post("/changepassword/:id", changepassword);
 module.exports = router;
 
 
+// EV OWNER  router
 router.get("/views/EVOWNER/2wheel/2owner", function (req, res) {
 
-  res.render('2owner.ejs')
+  res.render('2owner')
 });
-router.get("/EVOWNER/2wheel/2owner",(req,res)=>{
-  res.render("2owner")
-})
-router.get("/EVOWNER/3wheel/3owner.html", function (req, res) {
-  res.render('3owner.ejs')
+router.get("/EVOWNER/2wheel/ABOUT/aboutusss", function (req, res) {
+
+  res.render('about2ow')
 });
-router.get("/EVOWNER/4wheel/4owner.html", function (req, res) {
+router.get("/EVOWNER/2wheel/SUPPORT/support", function (req, res) {
+
+  res.render('support2ow')
+});
+router.get("/EVOWNER/2wheel/Emergency", function (req, res) {
+
+  res.render('Emergency2ow')
+});
+router.get("/EVOWNER/2wheel/Custom", function (req, res) {
+
+  res.render('Custom2ow')
+});
+router.get("/EVOWNER/2wheel/parts", function (req, res) {
+
+  res.render('parts2ow')
+});
+router.get("/EVOWNER/2wheel/maintain", function (req, res) {
+
+  res.render('maintain2ow')
+});
+router.get("/EVOWNER/2wheel/Washing", function (req, res) {
+
+  res.render('Washing2ow')
+});
+router.get("/EVOWNER/2wheel/query", function (req, res) {
+
+  res.render('query2ow')
+});
+
+
+
+// Ev owner routes
+router.get("/EVOWNER/3wheel/3owner", function (req, res) {
+  res.render('3owner')
+});
+router.get("/EVOWNER/3wheel/ABOUT/about", function (req, res) {
+  res.render('about3ow')
+});
+router.get("/EVOWNER/3wheel/SUPPORT/support", function (req, res) {
+  res.render('support3ow')
+});
+router.get("/EVOWNER/3wheel/Emergency", function (req, res) {
+  res.render('Emergency3ow')
+});
+router.get("/EVOWNER/3wheel/Custom", function (req, res) {
+  res.render('Custom3ow')
+});
+router.get("/EVOWNER/3wheel/parts", function (req, res) {
+  res.render('parts3ow')
+});
+router.get("/EVOWNER/3wheel/maintain", function (req, res) {
+  res.render('maintain3ow')
+});
+router.get("/EVOWNER/3wheel/Washing", function (req, res) {
+  res.render('Washing3ow')
+});
+router.get("/EVOWNER/3wheel/query", function (req, res) {
+  res.render('query3ow')
+});
+
+
+
+
+router.get("/EVOWNER/4wheel/4owner", function (req, res) {
   
-  res.render('4owner.ejs')
+  res.render('4owner')
 });
+router.get("/EVOWNER/4wheel/ABOUT/about", function (req, res) {
+  res.render('about4ow')
+});
+router.get("/EVOWNER/4wheel/SUPPORT/support", function (req, res) {
+  res.render('support4ow')
+});
+router.get("/EVOWNER/4wheel/Emergency", function (req, res) {
+  res.render('Emergency4ow')
+});
+router.get("/EVOWNER/4wheel/Custom", function (req, res) {
+  res.render('Custom4ow')
+});
+router.get("/EVOWNER/4wheel/parts", function (req, res) {
+  res.render('parts4ow')
+});
+router.get("/EVOWNER/4wheel/maintain", function (req, res) {
+  res.render('maintain4ow')
+});
+router.get("/EVOWNER/4wheel/Washing", function (req, res) {
+  res.render('Washing4ow')
+});
+router.get("/EVOWNER/4wheel/query", function (req, res) {
+  res.render('query4ow')
+});
+
+
+
+
 
 router.get("/Files/BLOG/blog", function (req, res) {
   
@@ -233,6 +323,39 @@ router.get("/GOVERNMENTBODY/govtwheel/ABOUT/aboutusss", function (req, res) {
 router.get("/GOVERNMENTBODY/govtwheel/SUPPORT/support", function (req, res) {
   
   res.render('supportgt')
+<<<<<<< HEAD
+=======
+});
+
+// company owner router
+
+router.get("/COMPANY/OWNER/owner", function (req, res) {
+  
+  res.render('owner')
+});
+router.get("/COMPANY/OWNER/ABOUT/aboutusss", function (req, res) {
+  
+  res.render('aboutcm')
+});
+router.get("/COMPANY/OWNER/SUPPORT/support", function (req, res) {
+  
+  res.render('supportcm')
+});
+
+// company user router
+
+router.get("/COMPANY/USER/user", function (req, res) {
+  
+  res.render('user')
+});
+router.get("/COMPANY/USER/ABOUT/aboutusss", function (req, res) {
+  
+  res.render('aboutus')
+});
+router.get("/COMPANY/USER/SUPPORT/support", function (req, res) {
+  
+  res.render('supportus')
+>>>>>>> 8f189a58915a3bb62adb5e4710fdefab4cd227af
 });
 
 
